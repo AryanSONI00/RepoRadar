@@ -1,4 +1,11 @@
 /* General Styling */
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #0d1117; /* Keep it dark */
+	z-index: -1;
+}
 body {
 	font-family: "Poppins", sans-serif;
 	background-color: #0d1117;
