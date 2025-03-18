@@ -5,13 +5,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>RepoRadar - GitHub Analyzer</title>
 		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 	</head>
 	<body>
 		<div id="particles-js"></div>
-		<h1>Welcome to RepoRadar</h1>
-		<input type="text" id="username" placeholder="Enter GitHub username" />
-		<button onclick="fetchGitHubData()">Analyze</button>
-		<div id="output"></div>
+		<div class="container">
+			<header>
+				<h1><i class="fab fa-github"></i> RepoRadar</h1>
+				<p class="subtitle">Discover GitHub Profiles with Style</p>
+			</header>
+
+			<main>
+				<div class="search-container">
+					<div class="input-wrapper">
+						<i class="fas fa-user"></i>
+						<input type="text" id="username" placeholder="Enter GitHub username" />
+					</div>
+					<button onclick="fetchGitHubData()"><i class="fas fa-search"></i> Analyze</button>
+				</div>
+
+				<div class="loading-spinner" id="loading">
+					<div class="spinner"></div>
+					<p>Analyzing profile...</p>
+				</div>
+
+				<div id="output" class="output-container"></div>
+			</main>
+
+			<footer>
+				<p>Made with <i class="fas fa-heart"></i> by Aryan Soni</p>
+				<div class="social-links">
+					<a href="https://github.com/AryanSONI00" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="mailto:aryan151soni@gmail.com"><i class="fas fa-envelope"></i></a>
+				</div>
+			</footer>
+		</div>
+
 		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 		<script src="particles-config.js"></script>
 		<script src="script.js"></script>
