@@ -114,3 +114,24 @@ function displayUserData(userData, reposData) {
         </div>
     `;
 }
+
+// Add particle effect interactions
+document.addEventListener("DOMContentLoaded", () => {
+	document.querySelector(".user-profile")?.addEventListener("mouseenter", () => {
+		particlesJS("particles-js", {
+			particles: {
+				move: { speed: 0.5 }, // Slow down particles on hover
+				opacity: { value: 0.3 }, // Reduce opacity slightly
+			},
+		});
+	});
+
+	document.querySelector(".user-profile")?.addEventListener("mouseleave", () => {
+		particlesJS("particles-js", {
+			particles: {
+				move: { speed: 2 }, // Restore normal speed
+				opacity: { value: 0.5 }, // Restore opacity
+			},
+		});
+	});
+});

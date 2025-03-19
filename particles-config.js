@@ -12,10 +12,6 @@ particlesJS("particles-js", {
 		},
 		shape: {
 			type: "circle",
-			stroke: {
-				width: 0,
-				color: "#000000",
-			},
 		},
 		opacity: {
 			value: 0.5,
@@ -46,17 +42,12 @@ particlesJS("particles-js", {
 		},
 		move: {
 			enable: true,
-			speed: 2,
+			speed: 2, // Normal speed
 			direction: "none",
 			random: true,
 			straight: false,
 			out_mode: "out",
 			bounce: false,
-			attract: {
-				enable: true,
-				rotateX: 600,
-				rotateY: 1200,
-			},
 		},
 	},
 	interactivity: {
@@ -64,23 +55,24 @@ particlesJS("particles-js", {
 		events: {
 			onhover: {
 				enable: true,
-				mode: "grab",
+				mode: "bubble", // Makes the particles react to hover
 			},
 			onclick: {
 				enable: true,
-				mode: "push",
+				mode: "repulse", // Pushes particles away on click
 			},
 			resize: true,
 		},
 		modes: {
-			grab: {
-				distance: 140,
-				line_linked: {
-					opacity: 0.5,
-				},
+			bubble: {
+				distance: 200,
+				size: 4,
+				duration: 1,
+				opacity: 0.8,
 			},
-			push: {
-				particles_nb: 4,
+			repulse: {
+				distance: 150,
+				duration: 0.4,
 			},
 		},
 	},
