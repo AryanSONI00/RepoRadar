@@ -1,50 +1,39 @@
-particlesJS("particles-js", {
+// Particles.js Configuration
+const particlesConfig = {
 	particles: {
 		number: {
-			value: 100,
+			value: 80,
 			density: {
 				enable: true,
 				value_area: 800,
 			},
 		},
 		color: {
-			value: ["#58a6ff", "#1f6feb", "#238636", "#2ea043"],
+			value: "#58a6ff",
 		},
 		shape: {
 			type: "circle",
 		},
 		opacity: {
 			value: 0.5,
-			random: true,
-			animation: {
-				enable: true,
-				speed: 1,
-				opacity_min: 0.1,
-				sync: false,
-			},
+			random: false,
 		},
 		size: {
 			value: 3,
 			random: true,
-			animation: {
-				enable: true,
-				speed: 2,
-				size_min: 0.1,
-				sync: false,
-			},
 		},
 		line_linked: {
 			enable: true,
 			distance: 150,
 			color: "#58a6ff",
-			opacity: 0.2,
+			opacity: 0.4,
 			width: 1,
 		},
 		move: {
 			enable: true,
-			speed: 2, // Normal speed
+			speed: 2,
 			direction: "none",
-			random: true,
+			random: false,
 			straight: false,
 			out_mode: "out",
 			bounce: false,
@@ -55,26 +44,30 @@ particlesJS("particles-js", {
 		events: {
 			onhover: {
 				enable: true,
-				mode: "bubble", // Makes the particles react to hover
+				mode: "grab",
 			},
 			onclick: {
 				enable: true,
-				mode: "repulse", // Pushes particles away on click
+				mode: "push",
 			},
 			resize: true,
 		},
 		modes: {
-			bubble: {
-				distance: 200,
-				size: 4,
-				duration: 1,
-				opacity: 0.8,
+			grab: {
+				distance: 140,
+				line_linked: {
+					opacity: 1,
+				},
 			},
-			repulse: {
-				distance: 150,
-				duration: 0.4,
+			push: {
+				particles_nb: 4,
 			},
 		},
 	},
 	retina_detect: true,
+};
+
+// Initialize particles.js when the window loads
+window.addEventListener("load", function () {
+	particlesJS("particles-js", particlesConfig);
 });

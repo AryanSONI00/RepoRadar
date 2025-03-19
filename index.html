@@ -7,6 +7,12 @@
 		<link rel="stylesheet" href="style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<script src="particles-config.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/calendar-heatmap@1.0.0/dist/calendar-heatmap.min.js"></script>
+		<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 	</head>
 	<body>
 		<div id="particles-js"></div>
@@ -31,6 +37,49 @@
 				</div>
 
 				<div id="output" class="output-container"></div>
+
+				<div id="analytics-container" style="display: none">
+					<!-- Activity Heatmap Section -->
+					<div class="heatmap-section">
+						<h3><i class="fas fa-calendar-alt"></i> Contribution Activity</h3>
+						<div id="activity-heatmap" class="heatmap-container"></div>
+					</div>
+
+					<!-- Charts Section -->
+					<div class="charts-section">
+						<h3><i class="fas fa-chart-pie"></i> Repository Analytics</h3>
+						<div class="charts-grid">
+							<div class="chart-container">
+								<h4>Language Distribution</h4>
+								<canvas id="languageChart"></canvas>
+							</div>
+							<div class="chart-container">
+								<h4>Star & Fork Trends</h4>
+								<canvas id="trendsChart"></canvas>
+							</div>
+							<div class="chart-container">
+								<h4>Commit History</h4>
+								<canvas id="commitsChart"></canvas>
+							</div>
+						</div>
+					</div>
+
+					<!-- Share Section -->
+					<div class="share-section">
+						<h3><i class="fas fa-share-alt"></i> Share Profile</h3>
+						<div class="share-buttons">
+							<button id="generateCard" class="share-btn"><i class="fas fa-image"></i> Generate Profile Card</button>
+							<button id="shareTwitter" class="share-btn twitter"><i class="fab fa-twitter"></i> Share on Twitter</button>
+							<button id="shareLinkedIn" class="share-btn linkedin"><i class="fab fa-linkedin"></i> Share on LinkedIn</button>
+						</div>
+						<div id="profileCard" class="profile-card-container" style="display: none">
+							<div class="profile-card">
+								<!-- Profile card content will be dynamically inserted -->
+							</div>
+							<button id="downloadCard" class="download-btn"><i class="fas fa-download"></i> Download Card</button>
+						</div>
+					</div>
+				</div>
 			</main>
 
 			<footer>
@@ -41,9 +90,6 @@
 				</div>
 			</footer>
 		</div>
-
-		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-		<script src="particles-config.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>
