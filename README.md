@@ -6,6 +6,8 @@
     <a href="https://aryansoni00.github.io/RepoRadar-/">
       <img src="https://img.shields.io/badge/Live%20Demo-RepoRadar-blue?style=for-the-badge&logo=github" alt="Live Demo">
     </a>
+    <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
   </p>
   <p>
     <a href="#features">Features</a> •
