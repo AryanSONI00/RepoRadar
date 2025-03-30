@@ -8,6 +8,15 @@
     </a>
     <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge" alt="Version">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/GitHub%20API-v3.0-181717?style=for-the-badge&logo=github" alt="GitHub API">
+    <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js">
+    <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white" alt="D3.js">
+    <img src="https://img.shields.io/badge/Particles.js-000000?style=for-the-badge&logo=particles.js&logoColor=white" alt="Particles.js">
   </p>
   <p>
     <a href="#features">Features</a> •
@@ -21,6 +30,13 @@
 ## 📌 What is RepoRadar?
 
 RepoRadar is an advanced **GitHub Profile Analyzer** that leverages the GitHub API to fetch user statistics (repositories, commits, pull requests, etc.) and presents them using **dynamic, interactive visualizations**. It helps developers gain deep insights into their GitHub activity through beautifully crafted analytics dashboards.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Features-20+-blue?style=flat-square" alt="Features">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs">
+  <img src="https://img.shields.io/badge/Issues-Welcome-brightgreen?style=flat-square" alt="Issues">
+</div>
 
 ---
 
@@ -97,16 +113,38 @@ RepoRadar is an advanced **GitHub Profile Analyzer** that leverages the GitHub A
 
 ## 🛠️ Tech Stack
 
-| Technology            | Purpose                                    |
-| --------------------- | ------------------------------------------ |
-| **HTML5**             | Structuring the application layout         |
-| **CSS3**              | Styling and making the UI responsive       |
-| **JavaScript (ES6+)** | Dynamic interactions and API handling      |
-| **GitHub API**        | Fetching user data and repository insights |
-| **Chart.js**          | Rendering analytical visualizations        |
-| **D3.js**             | Contribution heatmap and data charts       |
-| **Particles.js**      | Interactive background animations          |
-| **html2canvas**       | Exporting profile visuals                  |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/GitHub%20API-v3.0-181717?style=for-the-badge&logo=github" alt="GitHub API">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white" alt="D3.js">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/Particles.js-000000?style=for-the-badge&logo=particles.js&logoColor=white" alt="Particles.js">
+      </td>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/html2canvas-000000?style=for-the-badge&logo=html2canvas&logoColor=white" alt="html2canvas">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -161,6 +199,14 @@ const headers = {
 4. **Push to branch** (`git push origin feature/AmazingFeature`)
 5. **Create a Pull Request** 🚀
 
+### 🛠️ Contribution Badges
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge" alt="Contributions">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs">
+  <img src="https://img.shields.io/badge/Issues-Welcome-brightgreen?style=for-the-badge" alt="Issues">
+</div>
+
 ---
 
 ## 📜 License
@@ -179,6 +225,11 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/AryanSONI00">Aryan Soni</a></p>
   <p>
-    📧 <a href="mailto:aryan151soni@gmail.com">Contact</a>
+    <a href="mailto:aryan151soni@gmail.com">
+      <img src="https://img.shields.io/badge/Email-aryan151soni@gmail.com-blue?style=flat-square&logo=gmail" alt="Email">
+    </a>
+    <a href="https://github.com/AryanSONI00">
+      <img src="https://img.shields.io/badge/GitHub-AryanSONI00-181717?style=flat-square&logo=github" alt="GitHub">
+    </a>
   </p>
 </div>
