@@ -3,7 +3,7 @@
 <div align="center">
   <h3>🔍 Transform Your GitHub Activity into Stunning Visual Insights</h3>
   <p>
-    <a href="https://aryansoni00.github.io/RepoRadar-/">
+    <a href="https://aryansoni00.github.io/RepoRadar/">
       <img src="https://img.shields.io/badge/Live%20Demo-RepoRadar-blue?style=for-the-badge&logo=github" alt="Live Demo">
     </a>
     <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge" alt="Version">
